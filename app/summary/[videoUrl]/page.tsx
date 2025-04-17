@@ -205,13 +205,13 @@ export default function SummaryPage({ params }: PageProps) {
               {mode === "podcast" ? "Podcast-Style Summary" : "Video Summary"}
             </span>
             <div className="flex items-center space-x-2">
-              <Badge variant="secondary">{displayLanguage}</Badge>
-              {source && (
+              {/* <Badge variant="secondary">{displayLanguage}</Badge> */}
+              {/* {source && (
                 <Badge variant="outline" className="flex items-center">
                   {getSourceIcon()}
                   <span className="ml-1">{getSourceDisplay()}</span>
                 </Badge>
-              )}
+              )} */}
             </div>
           </CardTitle>
         </CardHeader>

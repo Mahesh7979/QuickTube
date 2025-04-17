@@ -162,11 +162,11 @@ export default function HistoryPage() {
                       </div>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Badge variant="secondary" className="flex items-center gap-1">
+                      {/* <Badge variant="secondary" className="flex items-center gap-1">
                         {summary.mode === "podcast" ? <Headphones className="h-3 w-3" /> : <Youtube className="h-3 w-3" />}
                         {summary.mode === "podcast" ? "Podcast" : "Video"}
-                      </Badge>
-                      <Badge variant="outline">{getLanguageDisplay(summary.language)}</Badge>
+                      </Badge> */}
+                      {/* <Badge variant="outline">{getLanguageDisplay(summary.language)}</Badge> */}
                       <div className="flex items-center text-sm text-muted-foreground whitespace-nowrap">
                         <Clock className="h-4 w-4 mr-1" />
                         <time>{formatDate(summary.createdAt)}</time>
